@@ -8,7 +8,7 @@ export default function Home() {
   const [error,setError] = useState<string | null>(null)
   const [data,setData] = useState<TodoType | null>(null)
 
-  const [id,setId] = useState(6)
+  const [id,setId] = useState(0)
 
 
   const getTodoData = async(id:number) =>{
