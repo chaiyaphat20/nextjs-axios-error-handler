@@ -45,7 +45,7 @@ export default function Home() {
   }, [id]);
   return (
     <div className="flex-row flex -md:flex-col">
-      <div className="bg-pink-200 w-1/2 -md:w-full -md:bg-slate-500">
+      <div className="bg-pink-200 w-1/2 -md:w-full -md:bg-slate-500 -sm:w-3/4">
         <h1 className="text-red-500 -2xl:text-yellow-500 -xl:text-green-500 -lg:text-blue-600 -md:text-stone-600 -sm:text-fuchsia-900">
           Error : {error}
         </h1>
