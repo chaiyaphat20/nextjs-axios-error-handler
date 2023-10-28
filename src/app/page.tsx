@@ -46,7 +46,11 @@ export default function Home() {
   },[id])
   return (
     <div>
-      <div>Error : {error}</div>
+      <div >
+        <h1 className="text-red-500 -2xl:text-yellow-500 -xl:text-green-500 -lg:text-blue-600 -md:text-stone-600 -sm:text-fuchsia-900">
+          Error : {error}
+        </h1>
+      </div>
       <div>data : {JSON.stringify(data)}</div>
 
       <div style={{height:'60px'}}></div>
