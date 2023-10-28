@@ -45,7 +45,7 @@ export default function Home() {
   }, [id]);
   return (
     <div className="flex-row flex -md:flex-col">
-      <div className="bg-pink-200 w-1/2">
+      <div className="bg-pink-200 w-1/2 -md:w-full -md:bg-slate-500">
         <h1 className="text-red-500 -2xl:text-yellow-500 -xl:text-green-500 -lg:text-blue-600 -md:text-stone-600 -sm:text-fuchsia-900">
           Error : {error}
         </h1>
@@ -54,7 +54,7 @@ export default function Home() {
 
       <div className="w-10 h-10 -md:h-2"></div>
 
-      <div className="bg-yellow-200 w-1/2">
+      <div className="bg-yellow-200 w-1/2 -md:w-full ">
         <div className="-sm:invisible">dataList : {JSON.stringify(dataList)}</div>
         <div>ErrorList : {errorList}</div>
 
